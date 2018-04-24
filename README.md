@@ -7,7 +7,7 @@
 	export http_proxy=http://ITS-547987-25879:66c4f@proxy.its.ac.id:8080
 	export https_proxy=http://ITS-547987-25879:66c4f@proxy.its.ac.id:8080
 
-###### lalu edit __/etc/apt/apt.conf__ :
+###### lalu edit `/etc/apt/apt.conf` :
 	Acquire::http::proxy "http://proxy.company.com:80/";
 	Acquire::https::proxy "https://proxy.company.com:80/";
 	Acquire::ftp::proxy "ftp://proxy.company.com:80/";
