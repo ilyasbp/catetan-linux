@@ -20,5 +20,5 @@
 
 # GITHUB
 
-#### push github tanpa login selama 2 jam
+###### push github tanpa login selama 2 jam
 	git config --global credential.helper 'cache --timeout 7200'
